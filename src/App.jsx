@@ -65,7 +65,7 @@ setTasks(updatedTasks)
      setActiveCard={setActiveCard}
      onDrop = {onDrop}/>
       </main>
-      {/* <h1>Active Card- {activeCard}</h1> */}
+      <h1>Active Card- {activeCard}</h1>
     </div>
   )
 }
