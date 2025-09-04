@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 import React ,{useState, useEffect} from 'react'
+=======
+import React from 'react'
+>>>>>>> a162edb7b803fe62d44ae0fa465abc20e2f3b09f
 import './App.css'
 import TaskForm from './components/TaskForm'
 import TaskColumn from './components/TaskColumn'
 import ToDoIcon from './assets/direct-hit.png'
 import DoingIcon from './assets/glowing-star.png'
 import DoneIcon from './assets/check-mark-button.png'
+<<<<<<< HEAD
  
 const oldTasks = localStorage.getItem("tasks");
 console.log(oldTasks);
@@ -66,6 +71,19 @@ setTasks(updatedTasks)
      onDrop = {onDrop}/>
       </main>
       <h1>Active Card- {activeCard}</h1>
+=======
+
+const App = () => {
+  return (
+    <div className='app'>
+     <TaskForm />
+      <main className='app_main'> 
+     
+     <TaskColumn  columnName = 'ToDo'  icon = {ToDoIcon} />
+     <TaskColumn  columnName = 'Doing' icon = {DoingIcon}/>
+     <TaskColumn  columnName = 'Done'  icon = {DoneIcon}/>
+      </main>
+>>>>>>> a162edb7b803fe62d44ae0fa465abc20e2f3b09f
     </div>
   )
 }

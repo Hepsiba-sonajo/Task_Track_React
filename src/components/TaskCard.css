@@ -4,6 +4,7 @@
     border: 1px solid #dcdcdc;
     border-radius: 10px;
     padding: 15px;
+<<<<<<< HEAD
     margin-bottom: 15px 0;
     cursor: grab;
 }
@@ -13,18 +14,32 @@
 }
 
 .task_text {
+=======
+    margin: 15px 0;
+}
+
+.task_text{
+>>>>>>> a162edb7b803fe62d44ae0fa465abc20e2f3b09f
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
+<<<<<<< HEAD
 .task_card_bottom_line {
+=======
+.task_card_botton_line{
+>>>>>>> a162edb7b803fe62d44ae0fa465abc20e2f3b09f
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .task_delete {
+=======
+.task_delete{
+>>>>>>> a162edb7b803fe62d44ae0fa465abc20e2f3b09f
     width: 35px;
     height: 35px;
     border-radius: 100%;
@@ -36,7 +51,11 @@
 }
 
 .task_delete:hover {
+<<<<<<< HEAD
     background-color: #ebebeb;
+=======
+    background-color: antiquewhite;
+>>>>>>> a162edb7b803fe62d44ae0fa465abc20e2f3b09f
 }
 
 .delete_icon {
@@ -45,6 +64,12 @@
     transition: all 0.3s ease-in-out;
 }
 
+<<<<<<< HEAD
 .task_delete:hover .delete_icon {
     opacity: 80%;
 }
+=======
+.task_delete:hover  .delete_icon{
+      opacity: 80%;
+}
+>>>>>>> a162edb7b803fe62d44ae0fa465abc20e2f3b09f
