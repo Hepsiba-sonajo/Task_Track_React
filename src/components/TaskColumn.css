@@ -3,10 +3,7 @@
 .task_column_heading {
     display: flex;
     align-items: center;
-<<<<<<< HEAD
     margin-bottom: 15px;
-=======
->>>>>>> a162edb7b803fe62d44ae0fa465abc20e2f3b09f
 }
 
 .task_column_icon {
